@@ -3,595 +3,66 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Марат Ибрагимов — продакт, маркетолог, BDM</title>
+<title>Марат Ибрагимов — продакт · маркетолог · B2B-продажи</title>
 <meta name="description" content="Маркетолог-стратег: 5+ лет в продукте, 8 лет в стройке, vibe-coding ежедневно. EdTech, B2B SaaS, PropTech. Казань." />
-<meta name="author" content="Марат Ибрагимов" />
 <meta name="theme-color" content="#E63900" />
 
-<!-- Open Graph (Telegram, LinkedIn, Facebook) -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Марат Ибрагимов — продакт, маркетолог, BDM" />
-<meta property="og:description" content="Помогаю бизнесу расти: продукт, маркетинг, B2B-продажи. 5+ лет в продукте, 8 лет в стройке, vibe-coding ежедневно." />
+<meta property="og:title" content="Марат Ибрагимов — продакт · маркетолог · B2B-продажи" />
+<meta property="og:description" content="Помогаю бизнесу расти. 5+ лет в продукте, 8 лет в стройке, vibe-coding ежедневно. EdTech, B2B SaaS, PropTech." />
 <meta property="og:image" content="https://makeyourdreem-oss.github.io/marat-portfolio/og-image.jpg" />
 <meta property="og:url" content="https://makeyourdreem-oss.github.io/marat-portfolio/" />
 <meta property="og:locale" content="ru_RU" />
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Марат Ибрагимов — продакт, маркетолог, BDM" />
-<meta name="twitter:description" content="Помогаю бизнесу расти: продукт, маркетинг, B2B-продажи." />
+<meta name="twitter:title" content="Марат Ибрагимов" />
+<meta name="twitter:description" content="Продакт · маркетолог · B2B-продажи. Vibe-coder. Казань." />
 <meta name="twitter:image" content="https://makeyourdreem-oss.github.io/marat-portfolio/og-image.jpg" />
 
-<!-- Favicon -->
-<link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+<link rel="icon" href="favicon.png" type="image/png" />
 <link rel="apple-touch-icon" href="favicon-256.png" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Lora:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
-<style>
-:root{
-  --orange-1:#FF4500;
-  --orange-2:#E63900;
-  --orange-3:#C42E00;
-  --accent:#FFD23F;
-  --ink:#1A0A05;
-  --paper:#FFF5EE;
-  --line:rgba(255,255,255,.18);
-  --card:rgba(255,255,255,.07);
-  --card-hover:rgba(255,255,255,.12);
-  --text-soft:rgba(255,255,255,.78);
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html,body{background:var(--orange-2);color:#fff;font-family:'Manrope',system-ui,sans-serif;font-weight:400;line-height:1.5;-webkit-font-smoothing:antialiased}
-img{display:block;max-width:100%}
-a{color:inherit;text-decoration:none}
-em,.italic{font-family:'Lora',serif;font-style:italic;font-weight:500}
-
-/* ───────── HERO ───────── */
-.hero{
-  position:relative;
-  min-height:100vh;
-  padding:64px 8vw 80px;
-  background:
-    radial-gradient(circle at 80% 20%, rgba(255,210,63,.35), transparent 40%),
-    radial-gradient(circle at 15% 80%, rgba(255,107,26,.45), transparent 50%),
-    linear-gradient(135deg, var(--orange-3) 0%, var(--orange-1) 50%, #FF6B1A 100%);
-  overflow:hidden;
-}
-.hero::before{
-  content:"";
-  position:absolute;inset:0;
-  background:
-    repeating-linear-gradient(115deg,
-      transparent 0 90px,
-      rgba(255,255,255,.04) 90px 92px,
-      transparent 92px 200px);
-  pointer-events:none;
-}
-.nav{
-  display:flex;align-items:center;justify-content:space-between;
-  position:relative;z-index:2;
-  margin-bottom:80px;
-}
-.nav .logo{
-  font-weight:800;font-size:18px;letter-spacing:.5px;
-  display:flex;align-items:center;gap:10px;
-}
-.nav .logo::before{
-  content:"";width:10px;height:10px;background:var(--accent);
-  border-radius:2px;box-shadow:0 0 12px rgba(255,210,63,.6);
-}
-.nav-contacts{
-  font-size:14px;color:var(--text-soft);
-  display:flex;gap:24px;
-}
-.nav-contacts a:hover{color:#fff}
-
-.hero-grid{
-  position:relative;z-index:2;
-  display:grid;
-  grid-template-columns:1.4fr .8fr;
-  gap:48px;
-  align-items:center;
-}
-.hero h1{
-  font-weight:800;
-  font-size:clamp(40px,5.5vw,76px);
-  line-height:1.05;
-  letter-spacing:-1.5px;
-}
-.hero h1 em{
-  color:var(--accent);
-  font-weight:600;
-}
-.hero-sub{
-  margin-top:24px;
-  font-size:18px;line-height:1.55;
-  color:var(--text-soft);
-  max-width:560px;
-}
-.hero-tags{
-  margin-top:32px;
-  display:flex;flex-wrap:wrap;gap:10px;
-}
-.tag{
-  background:rgba(0,0,0,.18);
-  border:1px solid var(--line);
-  padding:8px 14px;border-radius:999px;font-size:13px;font-weight:600;
-}
-.hero-cta{
-  margin-top:40px;display:flex;flex-wrap:wrap;gap:14px;
-}
-.btn{
-  display:inline-flex;align-items:center;gap:10px;
-  padding:14px 22px;border-radius:12px;font-weight:700;font-size:15px;
-  transition:transform .18s ease, box-shadow .18s ease;
-}
-.btn-primary{background:var(--accent);color:var(--ink)}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(255,210,63,.35)}
-.btn-ghost{background:transparent;border:1.5px solid var(--line);color:#fff}
-.btn-ghost:hover{background:rgba(255,255,255,.08)}
-
-.mascot{
-  position:relative;
-  display:flex;justify-content:center;
-}
-.mascot img{
-  max-width:380px;
-  filter:drop-shadow(0 30px 60px rgba(0,0,0,.4));
-}
-
-/* ───────── SECTION COMMON ───────── */
-.section{
-  position:relative;
-  padding:120px 8vw;
-}
-.section-head{
-  display:flex;align-items:flex-end;justify-content:space-between;
-  gap:40px;margin-bottom:56px;
-}
-.section-eyebrow{
-  font-size:13px;letter-spacing:2px;text-transform:uppercase;
-  color:var(--accent);font-weight:700;
-}
-.section h2{
-  font-size:clamp(34px,4vw,52px);
-  font-weight:800;line-height:1.1;letter-spacing:-1px;
-  margin-top:14px;
-  max-width:780px;
-}
-.section h2 em{color:var(--accent)}
-
-/* ───────── ON DARK ───────── */
-.dark{background:#1A0A05;color:#fff}
-.dark .section-eyebrow{color:var(--accent)}
-
-/* ───────── VALUE GRID ───────── */
-.value-grid{
-  display:grid;grid-template-columns:repeat(2,1fr);gap:18px;
-}
-.value-card{
-  padding:28px;
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:18px;
-  transition:background .2s ease;
-}
-.value-card:hover{background:var(--card-hover)}
-.value-card h3{
-  font-size:20px;font-weight:700;margin-bottom:10px;letter-spacing:-.3px;
-}
-.value-card p{color:var(--text-soft);font-size:15px;line-height:1.55}
-
-/* ───────── PROJECTS ───────── */
-.projects{display:grid;grid-template-columns:1fr;gap:22px}
-.project{
-  display:grid;
-  grid-template-columns:200px 1fr 280px;
-  gap:32px;
-  align-items:center;
-  padding:36px;
-  background:rgba(255,255,255,.03);
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:22px;
-  transition:transform .2s ease, border-color .2s ease;
-}
-.project:hover{
-  transform:translateY(-3px);
-  border-color:rgba(255,210,63,.4);
-}
-.project-meta{
-  font-size:13px;color:var(--text-soft);
-}
-.project-meta .role{
-  display:block;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
-  color:var(--accent);font-weight:700;margin-bottom:8px;
-}
-.project-meta .period{display:block;margin-top:4px}
-.project-body h3{
-  font-size:24px;font-weight:700;letter-spacing:-.3px;margin-bottom:10px;
-}
-.project-body .sub{color:var(--text-soft);font-size:14px;line-height:1.5}
-.project-bullets{margin-top:14px}
-.project-bullets li{
-  list-style:none;padding-left:18px;position:relative;
-  font-size:14.5px;color:rgba(255,255,255,.92);line-height:1.6;
-  margin-bottom:4px;
-}
-.project-bullets li::before{
-  content:"";position:absolute;left:0;top:.7em;
-  width:8px;height:8px;background:var(--accent);border-radius:2px;
-}
-.project-bullets li b{color:#fff;font-weight:700}
-.project-num{
-  font-family:'Lora',serif;font-style:italic;font-weight:600;
-  font-size:88px;line-height:1;color:var(--accent);
-  text-align:right;
-}
-
-/* ───────── SKILLS ───────── */
-.skills-cols{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:22px;
-}
-.skills-col h4{
-  font-size:14px;letter-spacing:1.5px;text-transform:uppercase;
-  color:var(--accent);font-weight:700;margin-bottom:14px;
-}
-.skills-col ul{list-style:none}
-.skills-col li{
-  font-size:14.5px;line-height:1.8;color:var(--text-soft);
-}
-
-/* ───────── CONTACT ───────── */
-.contact{
-  background:
-    radial-gradient(circle at 70% 30%, rgba(255,210,63,.25), transparent 50%),
-    linear-gradient(135deg, var(--orange-3), var(--orange-1));
-  color:#fff;
-  padding:100px 8vw 80px;
-}
-.contact-head{
-  font-size:clamp(40px,5vw,72px);
-  font-weight:800;line-height:1.05;letter-spacing:-1.5px;max-width:900px;
-}
-.contact-head em{color:var(--accent)}
-.contact-grid{
-  margin-top:48px;
-  display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
-}
-.contact-card{
-  padding:28px;
-  background:rgba(0,0,0,.15);
-  border:1px solid rgba(255,255,255,.18);
-  border-radius:18px;
-  transition:background .2s ease;
-}
-.contact-card:hover{background:rgba(0,0,0,.25)}
-.contact-card .label{
-  font-size:12px;letter-spacing:1.5px;text-transform:uppercase;
-  color:var(--accent);font-weight:700;
-}
-.contact-card .value{
-  margin-top:10px;font-size:18px;font-weight:600;
-}
-.footer{
-  text-align:center;margin-top:80px;color:var(--text-soft);font-size:13px;
-}
-
-/* ───────── RESPONSIVE ───────── */
-@media (max-width:980px){
-  .hero{padding:32px 6vw 60px}
-  .nav-contacts{display:none}
-  .hero-grid{grid-template-columns:1fr;gap:32px}
-  .mascot{order:-1}
-  .mascot img{max-width:240px}
-  .section{padding:80px 6vw}
-  .value-grid{grid-template-columns:1fr}
-  .project{grid-template-columns:1fr;gap:14px;padding:24px}
-  .project-num{font-size:64px;text-align:left}
-  .skills-cols{grid-template-columns:1fr 1fr}
-  .contact{padding:60px 6vw}
-  .contact-grid{grid-template-columns:1fr}
-}
-</style>
+<link rel="stylesheet" href="_shared/style.css">
 </head>
-<body>
+<body data-track="home">
 
-<!-- ───────── HERO ───────── -->
-<section class="hero">
-  <nav class="nav">
-    <div class="logo">Марат Ибрагимов</div>
-    <div class="nav-contacts">
+<section class="hero home-hero">
+  <div class="home-inner">
+    <div class="eyebrow">Марат Ибрагимов · Казань</div>
+    <h1>Помогаю бизнесу <em>расти</em>: продакт, маркетинг, B2B-продажи.</h1>
+    <p class="home-sub">5+ лет в продукте · 8 лет в стройке · vibe-coding ежедневно. Выберите угол, под который смотрите кандидата — увидите релевантные кейсы и метрики.</p>
+
+    <div class="home-tracks">
+      <a class="home-track" href="sales/">
+        <div class="num">01</div>
+        <div class="ttl">B2B-продажи</div>
+        <div class="desc">Продаю технологичные продукты. Продуктовый бэкграунд + 200+ CustDev + vibe-coding инфраструктура. Самоходен в стартапе.</div>
+        <div class="more">смотреть кейсы →</div>
+      </a>
+
+      <a class="home-track" href="marketing/">
+        <div class="num">02</div>
+        <div class="ttl">Маркетинг</div>
+        <div class="desc">B2C-маркетинг с миллиардными бюджетами + 8 лет в стройке как продуктовый контекст. PropTech-кейсы. Бренд с нуля для «Моторов».</div>
+        <div class="more">смотреть кейсы →</div>
+      </a>
+
+      <a class="home-track" href="product/">
+        <div class="num">03</div>
+        <div class="ttl">Продакт</div>
+        <div class="desc">Senior PM: EdTech, B2B SaaS, PropTech, iGaming. A/B, JTBD, retention. Hands-on с продуктом через vibe-coding.</div>
+        <div class="more">смотреть кейсы →</div>
+      </a>
+    </div>
+
+    <div class="home-contacts">
+      <a href="https://t.me/mrt_ibrg" target="_blank" rel="noopener">@mrt_ibrg</a>
       <a href="tel:+79950958959">+7 (995) 095-89-59</a>
-      <a href="https://t.me/mrt_ibrg">@mrt_ibrg</a>
       <a href="mailto:mrt.ibrg@gmail.com">mrt.ibrg@gmail.com</a>
     </div>
-  </nav>
-
-  <div class="hero-grid">
-    <div>
-      <h1>Помогаю бизнесу <em>расти</em>: продукт, маркетинг, B2B-продажи.</h1>
-      <p class="hero-sub">Маркетолог-стратег с двумя фундаментами. 5+ лет в продуктовом маркетинге (EdTech, B2B SaaS, PropTech, iGaming) и 8 лет в строительстве — от ПТО до менеджмента проектов на объектах 30 млн—5 млрд ₽. Применяю AI как ежедневный рабочий инструмент.</p>
-      <div class="hero-tags">
-        <span class="tag">Senior Product Manager</span>
-        <span class="tag">Product Marketing</span>
-        <span class="tag">BDM B2B</span>
-        <span class="tag">Vibe-coding</span>
-        <span class="tag">PropTech / EdTech</span>
-      </div>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="#contact">Связаться →</a>
-        <a class="btn btn-ghost" href="#projects">6 проектов с цифрами</a>
-      </div>
-    </div>
-    <div class="mascot">
-      <img src="mascot.png" alt="Марат — pixel-art" />
-    </div>
-  </div>
-</section>
-
-<!-- ───────── VALUE ───────── -->
-<section class="section dark" id="value">
-  <div class="section-head">
-    <div>
-      <div class="section-eyebrow">Что я делаю</div>
-      <h2>Закрываю задачи, где нужен <em>гибрид</em> продукта, маркетинга и hands-on.</h2>
-    </div>
-  </div>
-
-  <div class="value-grid">
-    <div class="value-card">
-      <h3>Product Manager в B2B SaaS / EdTech / PropTech / Marketplace</h3>
-      <p>Senior level: discovery, рост retention и выручки, A/B-инструмент, hands-on с продуктом через vibe-coding.</p>
-    </div>
-    <div class="value-card">
-      <h3>Маркетолог в девелопмент и PropTech</h3>
-      <p>Понимаю продукт изнутри: 8 лет стройки + 5 лет B2C-маркетинга с миллиардными бюджетами. ДОМ.РФ, Самолёт, Метр Квадратный, Todayprice.</p>
-    </div>
-    <div class="value-card">
-      <h3>Founding PMM в технологичном стартапе</h3>
-      <p>Запуск messaging, GTM, сайта, контента, рассылки — с нуля и в одиночку. Сайт omnisimaero.com — мой кейс.</p>
-    </div>
-    <div class="value-card">
-      <h3>BDM в B2B-стартапе технологичной ниши</h3>
-      <p>Построение воронки и ICP с нуля, CRM, переговоры с инженерными ЛПР. В OmniSim — пайплайн ~50М ₽ за 6 мес.</p>
-    </div>
-    <div class="value-card">
-      <h3>Vibe-coder для частных задач</h3>
-      <p>Парсеры открытых данных, авто-рассылки, лендинги, дашборды, обработка корпусов через AI-агентов. 7+ проектов за 6 мес без разработчика.</p>
-    </div>
-    <div class="value-card">
-      <h3>Бренд и SMM для регионального бизнеса</h3>
-      <p>Брендинг с нуля, медиа-партнёрства, программа коллабораций. Кейс «Моторы» (амфут, Казань): 30+ партнёров в воронке коллабов.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ───────── PROJECTS ───────── -->
-<section class="section" id="projects">
-  <div class="section-head">
-    <div>
-      <div class="section-eyebrow">6 проектов с цифрами</div>
-      <h2>Не просто список. <em>Метрики</em>, которые я двигал.</h2>
-    </div>
-  </div>
-
-  <div class="projects">
-
-    <!-- 1 -->
-    <article class="project">
-      <div class="project-meta">
-        <span class="role">Senior PM</span>
-        Университет Образовательной Медицины
-        <span class="period">04/2025 — сейчас</span>
-        <span class="period" style="color:var(--text-soft)">500+ млн ₽/год · EdMed</span>
-      </div>
-      <div class="project-body">
-        <h3>Воронка флагмана: <em>конверсия 2% → 5%</em></h3>
-        <p class="sub">A/B-тесты лендингов, оптимизация CTA, редизайн пути пользователя.</p>
-        <ul class="project-bullets">
-          <li>Новый высокомаржинальный сегмент через анализ больших данных → <b>+6% к выручке</b></li>
-          <li>5 гипотез → 2 запущенных направления → <b>+4% к годовой выручке</b></li>
-        </ul>
-      </div>
-      <div class="project-num">+150%</div>
-    </article>
-
-    <!-- 2 -->
-    <article class="project">
-      <div class="project-meta">
-        <span class="role">BDM + Marketing</span>
-        OmniSim
-        <span class="period">11/2025 — 05/2026</span>
-        <span class="period" style="color:var(--text-soft)">B2B SaaS-стартап · симуляторы БПЛА</span>
-      </div>
-      <div class="project-body">
-        <h3>Воронка с нуля: <em>пайплайн ~50 млн ₽</em></h3>
-        <p class="sub">Узкий технологичный рынок ~200 целевых компаний. Поиск PMF.</p>
-        <ul class="project-bullets">
-          <li>~800 компаний в базе с ICP-скорингом → 111 целевых → 69 валидированных ЛПР</li>
-          <li>13+ КП на 3-38 млн ₽, 30+ глубинных интервью с техническими директорами</li>
-          <li>Через vibe-coding: сайт omnisimaero.com, парсеры реестров, Python-рассылка, CRM</li>
-        </ul>
-      </div>
-      <div class="project-num">50М ₽</div>
-    </article>
-
-    <!-- 3 -->
-    <article class="project">
-      <div class="project-meta">
-        <span class="role">Product Manager</span>
-        PMP Tech / IT MY HUB
-        <span class="period">08/2023 — 03/2025</span>
-        <span class="period" style="color:var(--text-soft)">PropTech-консалтинг · ДОМ.РФ, Самолёт, Todayprice</span>
-      </div>
-      <div class="project-body">
-        <h3>Смена модели монетизации: <em>+2 млн ₽ прибыли</em></h3>
-        <p class="sub">Сервис аукциона недвижимости Todayprice (экосистема И. Галузина — 1,5 млрд ₽ прибыли инвесторам).</p>
-        <ul class="project-bullets">
-          <li>AI-приложение iOS/Android с подпиской — <b>окупаемость через 3 месяца</b></li>
-          <li>Pre-sale B2B-услуг ускорил на <b>15%</b> через калькулятор и автоматизацию</li>
-          <li>50+ CustDev → сэкономил клиентам <b>10+ млн ₽</b></li>
-        </ul>
-      </div>
-      <div class="project-num">+2М ₽</div>
-    </article>
-
-    <!-- 4 -->
-    <article class="project">
-      <div class="project-meta">
-        <span class="role">Junior → Senior PM</span>
-        Академсити
-        <span class="period">03/2021 — 08/2023</span>
-        <span class="period" style="color:var(--text-soft)">EdTech-холдинг · 2+ млрд ₽/год</span>
-      </div>
-      <div class="project-body">
-        <h3>Реферальная программа с нуля: <em>3,84 млн ₽ в первый год</em></h3>
-        <p class="sub">10% от всей выручки LMS. Плюс growth-команда и Growth-подход.</p>
-        <ul class="project-bullets">
-          <li>Редизайн главной по UX и A/B → <b>+30% к выручке</b></li>
-          <li>УТП: гарантия трудоустройства + центр карьеры → <b>+13% к выручке</b></li>
-          <li>Pop-up + триггеры → +20% при CTR 17%</li>
-          <li>GPT для time-to-market гипотез <b>-30%</b>, рост тестов в 4 раза</li>
-        </ul>
-      </div>
-      <div class="project-num">3,84М</div>
-    </article>
-
-    <!-- 5 -->
-    <article class="project">
-      <div class="project-meta">
-        <span class="role">Product Manager</span>
-        iGaming Telegram App
-        <span class="period">12/2024 — 04/2025</span>
-        <span class="period" style="color:var(--text-soft)">Кипр · B2C мобильное приложение</span>
-      </div>
-      <div class="project-body">
-        <h3>Снижение CPL на <em>80%</em>, рост MAU 18K → 45K</h3>
-        <p class="sub">Performance-маркетинг + retention через геймификацию.</p>
-        <ul class="project-bullets">
-          <li>Retention R7/R14/R30 <b>+14-20%</b> через геймификацию и push на триггерах</li>
-          <li>Перераспределение медиамикса по ROI → CPL <b>-80%</b></li>
-          <li>С нуля построил продуктовую аналитику в Amplitude</li>
-        </ul>
-      </div>
-      <div class="project-num">+150%</div>
-    </article>
-
-    <!-- 6 -->
-    <article class="project">
-      <div class="project-meta">
-        <span class="role">Менеджер проекта</span>
-        Авелар Солар Технолоджис
-        <span class="period">08/2019 — 2024</span>
-        <span class="period" style="color:var(--text-soft)">Топ-1 поставщик солнечной энергетики РФ/СНГ</span>
-      </div>
-      <div class="project-body">
-        <h3>СЭС <em>15 МВт</em> на 5 млрд ₽</h3>
-        <p class="sub">Координация 6 отделов, заказчики Лукойл, Сибур, Леруа-Мерлен.</p>
-        <ul class="project-bullets">
-          <li>Деловая переписка с госорганами (РосТехНадзор, Росреестр)</li>
-          <li>Договорная работа, контроль строительства, эксплуатация</li>
-          <li>До этого: фасады аэропорта Симферополя, метро Москвы, фасады Трёхгорной мануфактуры</li>
-        </ul>
-      </div>
-      <div class="project-num">5 млрд ₽</div>
-    </article>
-
-  </div>
-</section>
-
-<!-- ───────── SKILLS ───────── -->
-<section class="section dark">
-  <div class="section-head">
-    <div>
-      <div class="section-eyebrow">Стек и навыки</div>
-      <h2>Что у меня <em>в руках</em>.</h2>
-    </div>
-  </div>
-
-  <div class="skills-cols">
-    <div class="skills-col">
-      <h4>Продакт</h4>
-      <ul>
-        <li>Discovery, CustDev, JTBD</li>
-        <li>A/B-тестирование</li>
-        <li>CJM, ICP-сегментация</li>
-        <li>Unit-экономика</li>
-        <li>Retention / LTV / CAC</li>
-        <li>200+ интервью совокупно</li>
-      </ul>
-    </div>
-    <div class="skills-col">
-      <h4>Маркетинг</h4>
-      <ul>
-        <li>Позиционирование и УТП</li>
-        <li>Бренд-менеджмент</li>
-        <li>Контент-стратегия</li>
-        <li>Email-кампании</li>
-        <li>Performance и медиамикс</li>
-        <li>Партнёрский маркетинг</li>
-      </ul>
-    </div>
-    <div class="skills-col">
-      <h4>B2B-продажи</h4>
-      <ul>
-        <li>Длинный цикл</li>
-        <li>MEDDPICC, SPIN, Challenger</li>
-        <li>Упаковка КП с финмоделью</li>
-        <li>Технологичные ниши</li>
-        <li>Переговоры с инженерами</li>
-      </ul>
-    </div>
-    <div class="skills-col">
-      <h4>Vibe-coding</h4>
-      <ul>
-        <li>Claude Code + Python</li>
-        <li>Google Sheets API</li>
-        <li>Netlify, HTML/CSS</li>
-        <li>Парсеры открытых данных</li>
-        <li>Авто-рассылки SMTP</li>
-        <li>Мульти-агентные пайплайны</li>
-      </ul>
-    </div>
-  </div>
-
-  <div style="margin-top:48px;display:flex;flex-wrap:wrap;gap:8px">
-    <span class="tag">Amplitude</span>
-    <span class="tag">Roistat</span>
-    <span class="tag">Я.Метрика</span>
-    <span class="tag">Google Analytics</span>
-    <span class="tag">Figma</span>
-    <span class="tag">Miro</span>
-    <span class="tag">Notion</span>
-    <span class="tag">Jira</span>
-    <span class="tag">Bitrix24</span>
-    <span class="tag">N8N</span>
-  </div>
-</section>
-
-<!-- ───────── CONTACT ───────── -->
-<section class="contact" id="contact">
-  <h2 class="contact-head">Напишите — если задача <em>подходит</em>, я закроюсь за неделю.</h2>
-
-  <div class="contact-grid">
-    <a class="contact-card" href="tel:+79950958959">
-      <div class="label">Телефон</div>
-      <div class="value">+7 (995) 095-89-59</div>
-    </a>
-    <a class="contact-card" href="https://t.me/mrt_ibrg" target="_blank" rel="noopener">
-      <div class="label">Telegram</div>
-      <div class="value">@mrt_ibrg</div>
-    </a>
-    <a class="contact-card" href="mailto:mrt.ibrg@gmail.com">
-      <div class="label">Email</div>
-      <div class="value">mrt.ibrg@gmail.com</div>
-    </a>
-  </div>
-
-  <div class="footer">
-    Казань · готов к удалёнке по РФ, гибриду, очной работе · 26.05.2026
   </div>
 </section>
 
