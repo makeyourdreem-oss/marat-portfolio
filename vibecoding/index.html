@@ -4,12 +4,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Марат Ибрагимов — Vibe-coding · AI-инструменты для бизнеса</title>
-<meta name="description" content="6 рабочих AI-инструментов для продаж, маркетинга и автоматизации — собраны без разработчика через Claude Code + Python. Каждый закрывает реальную бизнес-задачу." />
+<meta name="description" content="Собираю AI-инструменты под бизнес-задачи: сбор рыночных баз, холодные кампании, нишевые лендинги. Через Claude Code + Python без разработчика. Под проект или часть найма." />
 <meta name="theme-color" content="#E63900" />
 
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Марат Ибрагимов — Vibe-coding кейсы" />
-<meta property="og:description" content="6 AI-инструментов под реальные бизнес-задачи: CRM-агент, парсеры рынка, авто-рассылки, генератор резюме, HH-pipeline, лендинги." />
+<meta property="og:title" content="Vibe-coding для бизнеса — Марат Ибрагимов" />
+<meta property="og:description" content="AI-инструменты под реальные задачи: рыночные карты, холодные рассылки, лендинги. Сделаю за 1-2 недели MVP." />
 <meta property="og:image" content="https://makeyourdreem-oss.github.io/marat-portfolio/og-image.jpg" />
 <meta property="og:url" content="https://makeyourdreem-oss.github.io/marat-portfolio/vibecoding/" />
 <meta property="og:locale" content="ru_RU" />
@@ -22,11 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Lora:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../_shared/style.css">
 <style>
-/* Дополнительные стили только для vibe-страницы */
 .case{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:20px;
   padding:36px;
   background:rgba(255,255,255,.04);
   border:1px solid rgba(255,255,255,.1);
@@ -37,7 +33,7 @@
 .case:hover{transform:translateY(-3px);border-color:rgba(255,210,63,.4)}
 .case-head{
   display:flex;align-items:flex-start;justify-content:space-between;gap:24px;
-  flex-wrap:wrap;
+  flex-wrap:wrap;margin-bottom:24px;
 }
 .case-num{
   font-family:'Lora',serif;font-style:italic;font-weight:600;
@@ -62,8 +58,19 @@
   color:var(--accent);font-weight:700;margin-bottom:8px;
 }
 .case-block p{font-size:15px;line-height:1.55;color:rgba(255,255,255,.92)}
+.case-example{
+  margin-top:24px;padding:20px 22px;
+  background:rgba(0,0,0,.18);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;
+}
+.case-example .label{
+  font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--text-soft);font-weight:700;margin-bottom:8px;
+}
+.case-example p{font-size:14.5px;line-height:1.55;color:rgba(255,255,255,.92)}
 .case-result{
-  margin-top:8px;padding:18px 20px;
+  margin-top:14px;padding:18px 20px;
   background:rgba(255,210,63,.1);
   border-left:3px solid var(--accent);
   border-radius:8px;
@@ -82,11 +89,36 @@
   padding:5px 11px;border-radius:6px;
   font-size:12px;color:var(--text-soft);
 }
+
+/* Готов собрать */
+.offer-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:18px;
+}
+.offer-card{
+  padding:26px;
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:18px;
+  transition:background .2s ease;
+}
+.offer-card:hover{background:var(--card-hover)}
+.offer-card .ico{
+  font-family:'Lora',serif;font-style:italic;font-weight:600;
+  font-size:28px;color:var(--accent);margin-bottom:10px;
+}
+.offer-card h3{font-size:19px;font-weight:700;letter-spacing:-.3px;margin-bottom:10px}
+.offer-card p{color:var(--text-soft);font-size:14.5px;line-height:1.55}
+.offer-card .who{
+  margin-top:14px;font-size:12px;color:var(--accent);font-weight:700;
+  letter-spacing:.3px;
+}
+
 @media (max-width:880px){
   .case{padding:24px}
   .case-body{grid-template-columns:1fr}
   .case-num{font-size:42px}
   .case-title h3{font-size:21px}
+  .offer-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -109,18 +141,18 @@
   <div class="hero-grid">
     <div>
       <div class="eyebrow">Vibe-coding · AI-инструменты для бизнеса</div>
-      <h1>Не жду <em>разработчика</em>. Собираю сам.</h1>
-      <p class="hero-sub">6 рабочих инструментов под реальные задачи: квалификация лидов, мониторинг рынка, авто-рассылки, генерация документов, поиск работы. Стек: Claude Code · Python · Google Sheets API · Netlify. Каждый кейс закрывает конкретную боль — внизу видно, что именно дало.</p>
+      <h1>Собираю AI-инструменты под <em>реальные</em> бизнес-задачи.</h1>
+      <p class="hero-sub">Не игрушки и не «прикольные демо». Каждый инструмент закрывает дыру в процессе: меньше ручной работы, быстрее реакция, дешевле инфраструктура. Стек: Claude Code, Python, Google Sheets API, Netlify. Собираю за 1-2 недели MVP, без подключения разработчика.</p>
       <div class="hero-tags">
         <span class="tag">Claude Code</span>
         <span class="tag">Python</span>
         <span class="tag">Google Sheets API</span>
         <span class="tag">Netlify · GitHub Pages</span>
-        <span class="tag">Multi-agent pipelines</span>
+        <span class="tag">SMTP · OAuth</span>
       </div>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="#cases">К кейсам →</a>
-        <a class="btn btn-ghost" href="#contact">Связаться</a>
+        <a class="btn btn-primary" href="#cases">Мои кейсы →</a>
+        <a class="btn btn-ghost" href="#offer">Что могу собрать вам</a>
       </div>
     </div>
     <div class="mascot">
@@ -132,212 +164,199 @@
 <section class="section" id="cases">
   <div class="section-head">
     <div>
-      <div class="eyebrow">6 кейсов</div>
-      <h2>Каждый закрыл <em>конкретную</em> бизнес-задачу</h2>
+      <div class="eyebrow">Мои кейсы</div>
+      <h2>3 инструмента, которые я <em>уже собрал и использую</em></h2>
     </div>
   </div>
 
-  <!-- CASE 1: CRM Daily Digest -->
+  <!-- CASE 1: Парсер реестров компаний -->
   <article class="case">
     <div class="case-head">
       <div class="case-title">
-        <div class="case-cat">Sales-операционка</div>
-        <h3>CRM-агент: ежедневный дайджест воронки за минуту вместо двух часов</h3>
+        <div class="case-cat">Lead generation · data engineering</div>
+        <h3>Парсер реестров компаний → готовая рыночная карта с ICP-скорингом</h3>
       </div>
       <div class="case-num">01</div>
     </div>
     <div class="case-body">
       <div class="case-block">
-        <h4>Зачем делали</h4>
-        <p>В OmniSim воронка на 99 строк в Google Sheets. Каждое утро надо вручную пробегать: кто молчит 30+ дней, у кого встреча на этой неделе, где конфликты данных. На полную обработку уходило ~2 часа. Это не масштабируется и быстро превращается в «забил».</p>
+        <h4>Какую задачу закрывает</h4>
+        <p>Малому B2B-бизнесу или отделу продаж нужна актуальная база целевых компаний для outreach. Информация разбросана по реестрам (отраслевые, госзакупочные, налоговые), сайтам компаний, открытым источникам. Вручную собрать — месяц. Готовые сервисы вроде Контур.Фокус — 5-20к/мес и не всегда дают нужные срезы.</p>
       </div>
       <div class="case-block">
         <h4>Что собрал</h4>
-        <p>Слэш-команда <code>/daily-crm</code> запускает 6 параллельных Haiku-агентов. Каждый берёт свой сегмент строк, классифицирует по 4 зонам активности (красная / жёлтая / зелёная / замороженные), генерит черновики follow-up-сообщений по фактуре из CRM. На выходе — структурированный Markdown-отчёт на 4 страницы.</p>
+        <p>Набор Python-парсеров под публичные реестры. Дедупликация по ИНН и названию. Веб-обогащение через Exa Search (выручка, размер R&D, наличие нужного продукта в линейке). Автоматический ICP-скоринг по 8 параметрам. Выход — Google Sheets с категоризированной базой, отсортированной по горячести.</p>
       </div>
     </div>
+    <div class="case-example">
+      <div class="label">Кейс из практики</div>
+      <p>Для стартапа OmniSim (B2B SaaS, симуляторы) нужно было найти всех разработчиков беспилотников в РФ — закрытый узкий рынок. Спарсил Минпромторг, отраслевые реестры, госзакупки на тематику. Дедуплицировал. Через AI обогатил по 8 признакам. Из ~800 сырых компаний получил <b>111 целевых</b> и <b>69 валидированных ЛПР с email и должностями</b>.</p>
+    </div>
     <div class="case-result">
-      <div class="label">Что дало</div>
-      <div class="value">Утро на CRM: 2 часа → 1 минута. Поймал конфликты данных между листами (АероМакс/АВАКС/Аэродин — статусы расходились). Команда впервые видит воронку сразу глазами «что делать», а не «что есть».</div>
+      <div class="label">Что это даёт бизнесу</div>
+      <div class="value">Карта целевого рынка за вечер вместо месяца. Готовая база для outreach с приоритетами. Минус ~60к/год экономии на платных reference-сервисах.</div>
     </div>
     <div class="case-stack">
-      <span>Claude Code</span><span>Multi-agent (Haiku)</span><span>Google Sheets API</span><span>Markdown</span>
+      <span>Python</span><span>BeautifulSoup</span><span>Exa Search</span><span>pandas</span><span>Google Sheets API</span>
     </div>
   </article>
 
-  <!-- CASE 2: Парсеры реестров -->
+  <!-- CASE 2: Авто-рассылка -->
   <article class="case">
     <div class="case-head">
       <div class="case-title">
-        <div class="case-cat">Lead generation · data engineering</div>
-        <h3>Парсеры открытых реестров → база 800 компаний с ICP-скорингом</h3>
+        <div class="case-cat">Marketing automation</div>
+        <h3>Холодная B2B-рассылка с авто-логом — без сервиса за 5к/мес</h3>
       </div>
       <div class="case-num">02</div>
     </div>
     <div class="case-body">
       <div class="case-block">
-        <h4>Зачем делали</h4>
-        <p>В OmniSim продаём симуляторы разработчикам БПЛА. Целевой рынок ~200 компаний в РФ, но они «спрятаны» в разных источниках: реестр Минпромторга, Приказ 325-25, НПЦ БАС по 5 регионам, ГосЗакупки на симуляторы и НИОКР. Вручную собирать = месяц гугления и нулевая полнота.</p>
+        <h4>Какую задачу закрывает</h4>
+        <p>Малому бизнесу или стартапу нужна холодная B2B-рассылка с персонализацией и follow-up-цепочкой. Готовые сервисы (Unisender, Reply, Mailchimp) — от 5к/мес, шаблоны слабые под B2B, ограничения на API. И не дают логировать в свою Google Sheets автоматически.</p>
       </div>
       <div class="case-block">
         <h4>Что собрал</h4>
-        <p>Набор Python-парсеров под каждый источник. Дедупликация и нормализация. Exa-интеграция для веб-обогащения каждой компании (выручка, размер R&D, наличие БПЛА в линейке). ICP-скоринг по 8 параметрам автоматически. Выход: 800 компаний → 111 целевых → 69 валидированных ЛПР.</p>
+        <p>HTML-шаблон в формате micro-site (не классическое письмо — лучше открывают и читают). Python-скрипт через SMTP корпоративной почты с защитой от спам-фильтров (ограничение 25 писем/день, ротация подписей, прогретый домен). Двух-этапная цепочка: первичное письмо + follow-up через 5 дней с другим углом. Авто-логирование открытий и ответов в Google Sheets.</p>
       </div>
+    </div>
+    <div class="case-example">
+      <div class="label">Кейс из практики</div>
+      <p>Для OmniSim запустил рассылку на 30+ целевых компаний по двух-этапной механике. Каждое письмо — micro-site с разделами «проблема / наше решение / кейс / ТТХ». Авто-логирование статусов в CRM-таблицу. Из рассылки <b>12 тёплых входящих лидов</b>, цикл сделки сократился (клиент приходил уже понимая продукт).</p>
     </div>
     <div class="case-result">
-      <div class="label">Что дало</div>
-      <div class="value">Карта рынка БПЛА в РФ собрана за вечер вместо месяца. Параллельно из ГосЗакупок выловлены компании, которые **деньгами заявили интерес** к симуляторам — это самые тёплые лиды. Без парсеров я бы их не нашёл никогда.</div>
-    </div>
-    <div class="case-stack">
-      <span>Python</span><span>BeautifulSoup</span><span>Exa Search</span><span>pandas</span>
-    </div>
-  </article>
-
-  <!-- CASE 3: Email кампания -->
-  <article class="case">
-    <div class="case-head">
-      <div class="case-title">
-        <div class="case-cat">Marketing automation</div>
-        <h3>Холодная рассылка через Yandex SMTP — без сервиса за 5к/мес</h3>
-      </div>
-      <div class="case-num">03</div>
-    </div>
-    <div class="case-body">
-      <div class="case-block">
-        <h4>Зачем делали</h4>
-        <p>Нужна холодная рассылка на 30+ компаний с персонализацией и двух-этапной механикой (первичное письмо + follow-up через 5 дней с другим углом). Готовые сервисы (Unisender / Reply) — от 5к/мес и не дают нужной гибкости. В стартапе бюджет на это держать дорого.</p>
-      </div>
-      <div class="case-block">
-        <h4>Что собрал</h4>
-        <p>HTML-шаблон в формате micro-site (а не «письмо» — это лучше открывают). Python-скрипт через Yandex SMTP с ограничением 25 писем/день (чтобы не попасть в спам). Авто-логирование откликов и статусов в Google Sheets. Двух-этапная цепочка с авто-планированием.</p>
-      </div>
-    </div>
-    <div class="case-result">
-      <div class="label">Что дало</div>
-      <div class="value">Рассылка на 30+ компаний без подписки на сервис. Из неё 12 тёплых входящих лидов + знание, какие компании прочитали и не ответили (для follow-up). Затраты — 0₽/мес vs ~60к/год на Unisender.</div>
+      <div class="label">Что это даёт бизнесу</div>
+      <div class="value">Self-hosted рассылка с полной гибкостью. 0₽/мес vs 60-180к/год на платных сервисах. Можно интегрировать с любой CRM, парсером, AI-классификатором — это не black box.</div>
     </div>
     <div class="case-stack">
       <span>Python</span><span>SMTP</span><span>HTML / micro-site</span><span>Google Sheets API</span>
     </div>
   </article>
 
-  <!-- CASE 4: Резюме-генератор -->
+  <!-- CASE 3: Микросайты -->
   <article class="case">
     <div class="case-head">
       <div class="case-title">
-        <div class="case-cat">Personal automation</div>
-        <h3>Генератор резюме: один YAML → один DOCX с фото за 30 секунд</h3>
+        <div class="case-cat">Web · нишевые лендинги</div>
+        <h3>Лендинг для нишевого продукта: 1 день вместо недели</h3>
       </div>
-      <div class="case-num">04</div>
+      <div class="case-num">03</div>
     </div>
     <div class="case-body">
       <div class="case-block">
-        <h4>Зачем делали</h4>
-        <p>Подаюсь на 5 разных треков (BDM / PMM / Product / Marketer / Marketer-Застройщик). Под каждый трек нужен свой DOCX в ATS-friendly формате, с фото и одинаковой типографикой. Вручную — каждое резюме поправить = час. Если правки идут постоянно, неделю теряешь.</p>
+        <h4>Какую задачу закрывает</h4>
+        <p>Стартапу или малому бизнесу нужен лендинг под нишевый продукт, личный бренд эксперта, презентация проекта. Tilda даёт шаблоны и подписку 1500₽/мес. Фрилансер — неделя и от 30к. У обоих варианта потолок по гибкости — а тебе нужен полный контроль над структурой и копирайтом.</p>
       </div>
       <div class="case-block">
         <h4>Что собрал</h4>
-        <p>Универсальный <code>make_resume.py</code> на python-docx. Контент каждого резюме в YAML-файле (читаемо, легко редактировать). Шаблон поддерживает: invisible-table header с фото справа, inline languages, sub-blocks в опыте, форматированные секции образования. Результат — 7 ATS-friendly DOCX с фото за один день.</p>
+        <p>Чистый HTML/CSS без фреймворков. Хостинг на GitHub Pages или Netlify (0₽/мес). CI/CD через GitHub Actions: коммит → live за 23 секунды. Open Graph для красивых превью при шеринге в Telegram/LinkedIn. Адаптивная вёрстка под мобильные. Возможность держать несколько микросайтов под разные углы.</p>
       </div>
+    </div>
+    <div class="case-example">
+      <div class="label">Кейс из практики</div>
+      <p>Для OmniSim — лендинг продукта <a href="https://omnisimaero.com" target="_blank" rel="noopener" style="color:var(--accent)">omnisimaero.com</a> (привлекает входящие заявки от инженеров). Для себя — этот портфолио на GitHub Pages: главная + 4 микросайта под разные роли (Sales, Marketing, Product, Vibe-coding). Каждую страницу можно скидывать прямой ссылкой нужному контакту — он видит только релевантный контент.</p>
     </div>
     <div class="case-result">
-      <div class="label">Что дало</div>
-      <div class="value">7 резюме под разные углы вместо одного «универсального». Любая правка форматирования = 30 секунд (поменял шаблон, перегенерил всё). Без скрипта в Word ушло бы 3-4 рабочих дня и в каждой версии что-то не совпадало бы.</div>
+      <div class="label">Что это даёт бизнесу</div>
+      <div class="value">Лендинг за день, 0₽/мес хостинг, полный контроль над дизайном и копи. Если что-то поправить — git push и через 23 секунды live. Нет зависимости от верстальщика и шаблонов конструктора.</div>
     </div>
     <div class="case-stack">
-      <span>Python</span><span>python-docx</span><span>YAML</span><span>Pillow</span>
-    </div>
-  </article>
-
-  <!-- CASE 5: HH automation -->
-  <article class="case">
-    <div class="case-head">
-      <div class="case-title">
-        <div class="case-cat">Job-search pipeline</div>
-        <h3>HH автоматизация: 3-уровневый пайплайн поиска работы</h3>
-      </div>
-      <div class="case-num">05</div>
-    </div>
-    <div class="case-body">
-      <div class="case-block">
-        <h4>Зачем делали</h4>
-        <p>Поиск работы — это та же воронка продаж, но с тобой в роли продукта. 5 фильтров на hh, 8 ТГ-каналов, LinkedIn, прямой outreach. Если делать вручную — на сканирование уходит 1.5 часа в день, и при этом теряешь свежие вакансии. Хочется не «искать», а получать готовый список.</p>
-      </div>
-      <div class="case-block">
-        <h4>Что собрал</h4>
-        <p>3 уровня. <b>L1</b> <code>hh_monitor.py</code>: ежедневная сводка новых вакансий по 5 фильтрам с дедупликацией. <b>L2</b> <code>resume_boost.py</code>: applicant OAuth + поднятие 7 резюме каждые 4 часа. <b>L3</b> <code>apply_pipeline.py</code>: LLM-фильтр через Claude (оценивает совпадение 0-10, выбирает резюме, генерит сопроводительное), автоотклик с safety caps (макс 10/день, мин score 7).</p>
-      </div>
-    </div>
-    <div class="case-result">
-      <div class="label">Что дало</div>
-      <div class="value">Полный pipeline готов, осталось вставить API-токены. Когда HH-приложение пройдёт модерацию — поиск работы превратится в «утром просыпаюсь, открываю отчёт, иду на интервью». Один час моей работы заменяет 4-5 часов рутины каждый день.</div>
-    </div>
-    <div class="case-stack">
-      <span>Python</span><span>OAuth 2.0</span><span>Claude API</span><span>HH.ru API</span>
-    </div>
-  </article>
-
-  <!-- CASE 6: Микросайты -->
-  <article class="case">
-    <div class="case-head">
-      <div class="case-title">
-        <div class="case-cat">Web / personal branding</div>
-        <h3>Микросайты-визитки: 4 страницы под разные роли за один день</h3>
-      </div>
-      <div class="case-num">06</div>
-    </div>
-    <div class="case-body">
-      <div class="case-block">
-        <h4>Зачем делали</h4>
-        <p>В нетворке скидываешь ссылку контакту — Серёже из ОГМО, Антону, рекрутеру в Telegram. Если ссылка — общее портфолио на 10 разделов, человек не дойдёт до релевантного. Нужны раздельные URL под угол: «отправляю Sales-страницу человеку, который ищет BDM», «Marketing-страницу — застройщику» и т.д.</p>
-      </div>
-      <div class="case-block">
-        <h4>Что собрал</h4>
-        <p>Главная-развилка + 4 микросайта (Sales / Marketing / Product / Vibe-coding) в едином дизайне. Общий CSS, navigation между страницами, Open Graph для красивых превью в Telegram. Deploy на GitHub Pages через Actions: git push → live за 23 секунды. Лендинг omnisimaero.com — отдельный кейс на Netlify по тому же принципу.</p>
-      </div>
-    </div>
-    <div class="case-result">
-      <div class="label">Что дало</div>
-      <div class="value">4 публичных URL под нетворк. Контакту скидываешь прямой линк → видит только релевантный контент. Затраты — 0₽/мес (GitHub Pages бесплатно). Без vibe-coding это либо Tilda 1500₽/мес с конструктором, либо неделя верстальщику.</div>
-    </div>
-    <div class="case-stack">
-      <span>HTML/CSS</span><span>GitHub Pages</span><span>GitHub Actions</span><span>Netlify</span>
+      <span>HTML/CSS</span><span>GitHub Pages</span><span>GitHub Actions</span><span>Netlify</span><span>OG / SEO</span>
     </div>
   </article>
 
 </section>
 
-<section class="section dark">
+<section class="section dark" id="offer">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">Готов собрать под вашу задачу</div>
+      <h2>Типовые инструменты, которые могу <em>сделать за 1-2 недели</em></h2>
+    </div>
+  </div>
+
+  <p style="color:var(--text-soft);font-size:16px;max-width:780px;margin-bottom:36px">
+    Это не «придумал из головы». Это шаблоны, под которые у меня уже есть готовые блоки в стеке. Под вашу специфику — допиливаю за дни, не за спринты.
+  </p>
+
+  <div class="offer-grid">
+
+    <div class="offer-card">
+      <div class="ico">01</div>
+      <h3>AI-квалификатор лидов и генератор КП</h3>
+      <p>Принимает заявку (форма или ТГ-бот), вытаскивает имя/компанию/задачу/бюджет, оценивает качество лида, задаёт уточняющие вопросы, формирует КП в DOCX/PDF, сохраняет в CRM. Менеджер видит только тёплые с готовыми материалами.</p>
+      <div class="who">Кому: B2B-стартапы, агентства, продуктовые компании с большим потоком входящих</div>
+    </div>
+
+    <div class="offer-card">
+      <div class="ico">02</div>
+      <h3>AI-парсер документов (счета, договоры, акты)</h3>
+      <p>Загружаешь PDF/DOCX/скан — извлекает реквизиты (номер, дата, контрагент, ИНН, сумма, НДС, назначение). Показывает confidence по полям, подсвечивает сомнительные. Экспорт в Excel/JSON. Сэкономит часы бухгалтерии и снимет нагрузку с первички.</p>
+      <div class="who">Кому: малый бизнес с потоком первички, бухгалтерские отделы, юр. сопровождение</div>
+    </div>
+
+    <div class="offer-card">
+      <div class="ico">03</div>
+      <h3>Mini-CFO: контроль кэша и кассовые разрывы</h3>
+      <p>Загружаешь банковскую выписку + список платежей и поступлений. Строит график остатка на 7/14/30 дней, подсвечивает разрывы, объясняет причину, предлагает решения (что перенести, что ускорить). Сценарии optimistic / base / pessimistic.</p>
+      <div class="who">Кому: основатели малого бизнеса, финансовые директора без BI-системы</div>
+    </div>
+
+    <div class="offer-card">
+      <div class="ico">04</div>
+      <h3>AI-ассистент по встречам</h3>
+      <p>Загружаешь запись созвона — на выходе: транскрибация, краткое резюме, список решений, задач с ответственными и дедлайнами. Экспорт в Notion/Telegram. Перестают теряться договорённости на длинных встречах.</p>
+      <div class="who">Кому: команды с большим числом созвонов, продуктовые команды, sales-отделы</div>
+    </div>
+
+    <div class="offer-card">
+      <div class="ico">05</div>
+      <h3>CRM-агент для ежедневного дайджеста воронки</h3>
+      <p>Подключаешь к Google Sheets, Bitrix24 или amoCRM — каждое утро получаешь структурированный отчёт: красная зона (горит), жёлтая (на неделе), зелёная (регулярно), архив. Плюс черновики follow-up-сообщений по фактуре из CRM. Утро на воронку сокращается с часов до минуты.</p>
+      <div class="who">Кому: руководители продаж, BD-менеджеры, основатели B2B-стартапов</div>
+    </div>
+
+    <div class="offer-card">
+      <div class="ico">06</div>
+      <h3>Кастомный лендинг или микросайт</h3>
+      <p>Чистый HTML/CSS, без шаблонов конструктора. Хостинг 0₽/мес. Полный контроль над дизайном, копирайтом, SEO. Несколько микросайтов под разные углы (если у вас несколько ICP или продуктов). За 3-5 дней от брифа до live.</p>
+      <div class="who">Кому: эксперты с личным брендом, нишевые продукты, презентации новых направлений</div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section">
   <div class="section-head">
     <div>
       <div class="eyebrow">Принципы</div>
-      <h2>Что отличает vibe-coding <em>«работает»</em> от vibe-coding «прикольно»</h2>
+      <h2>Что отличает <em>«работает»</em> от <em>«прикольно»</em></h2>
     </div>
   </div>
 
   <div class="value-grid">
     <div class="value-card">
       <h3>Не для красоты, а для метрики</h3>
-      <p>Каждый инструмент закрывает конкретный таймер или цифру: 2 часа на CRM → 1 минута. 30+ компаний рассылки за 0₽ vs 5к/мес. 7 резюме за день вместо недели. Если кейс не двигает цифру — он мне не нужен.</p>
+      <p>Каждый инструмент закрывает конкретный таймер или цифру: часы ручной работы, рубли подписки, дни на цикл. Если кейс не двигает цифру — он не нужен.</p>
     </div>
     <div class="value-card">
       <h3>Готовые блоки, не велосипеды</h3>
-      <p>Не пишу клиент к Google Sheets с нуля — беру библиотеку. Не делаю свой OAuth-flow — беру Authorization Code из доки HH. Не верстаю CSS-фреймворк — пишу один CSS-файл руками. Стек простой, потому что не нужен сложный.</p>
+      <p>Беру библиотеки, OAuth-flow из доки, готовые UI-паттерны. Стек простой, потому что не нужен сложный. Меньше кода — меньше багов.</p>
     </div>
     <div class="value-card">
       <h3>AI там, где он сильнее человека</h3>
-      <p>LLM — для классификации, генерации текста, обогащения данных, написания кода. Python — для оркестрации, парсинга, отправки. Google Sheets — для хранения и dashboards. Каждый делает то, что у него получается лучше.</p>
+      <p>LLM — для классификации, генерации текста, обогащения данных. Python — для оркестрации, парсинга. Google Sheets — для хранения и дашбордов. Каждый делает то, что у него получается лучше.</p>
     </div>
     <div class="value-card">
-      <h3>MVP за день, итерация за час</h3>
-      <p>Первый рабочий прототип — в первый же день. Каждый кейс выше изначально занял 2-6 часов до состояния «работает». Дальше итерации по 30-60 минут под реальные потребности.</p>
+      <h3>MVP за 1-2 недели, итерация за день</h3>
+      <p>Первый рабочий прототип — в первую неделю. Дальше итерации на основе твоей обратной связи. Не «спринты на квартал» — короткие циклы.</p>
     </div>
   </div>
 </section>
 
 <section class="contact" id="contact">
-  <h2 class="contact-head">Хочешь похожий инструмент <em>для своей задачи?</em></h2>
-  <p class="contact-sub">Готов под проект или фриланс. Расскажи задачу — соберу за 1-2 недели MVP. Также рассматриваю найм на роли продакта, маркетолога, BDM (см. <a href="../" style="text-decoration:underline;color:#fff">другие направления</a>).</p>
+  <h2 class="contact-head">Расскажите задачу — <em>оценю</em> за день, MVP за 1-2 недели</h2>
+  <p class="contact-sub">Готов под проект или фриланс. Также рассматриваю найм на роли продакта, маркетолога, BDM (см. <a href="../" style="text-decoration:underline;color:#fff">другие направления</a>). Пишите в Telegram — отвечу в день.</p>
 
   <div class="contact-grid">
     <a class="contact-card" href="https://t.me/mrt_ibrg" target="_blank" rel="noopener">
