@@ -461,7 +461,7 @@ window.portfolioSiteData = {
               "Перерабатывал главную страницу: представление программ и переходы к выбору следующего курса.",
               "Запускал реферальную программу с персональной ссылкой и вознаграждением для студента.",
               "Развивал тренажёры поэтапно: сначала упражнения, затем достижения и награды, далее персональные рекомендации программ.",
-              "Работал над страницами курсов, карьерным центром и мастерскими как новым образовательным форматом."
+              "Работал над страницами курсов, Центром развития карьеры (ЦРК) и мастерскими как новым образовательным форматом."
             ],
             "workstreams": [
               {
@@ -494,10 +494,11 @@ window.portfolioSiteData = {
                 ]
               },
               {
-                "title": "Продуктовая линейка: программы, мастерские и карьера",
+                "title": "Продуктовая линейка: программы, мастерские и ЦРК",
                 "paragraphs": [
-                  "Работал над страницами курсов и запуском новых больших программ. Отдельно запустил мастерские — новый масштабируемый формат практики — и участвовал в развитии центра карьеры.",
-                  "Эти проекты решали разные задачи: программы расширяли предложение, мастерские добавляли практический формат, карьерный центр помогал связать обучение с дальнейшим профессиональным развитием. Они входили в мою работу над вертикалью наряду с платформой и привлечением."
+                  "Работал над страницами курсов и запуском новых больших программ. Отдельно запустил мастерские — новый масштабируемый формат практики — и участвовал в развитии Центра развития карьеры (ЦРК).",
+                  "ЦРК связывал обучение с началом профессиональной практики: партнёры формировали тестовые задания и места для стажировок, команда оценивала подготовку студентов и направляла подходящих кандидатов. Для отбора учитывали опыт, интересы, готовность к практике и доступное время участника.",
+                  "Программы расширяли предложение, мастерские добавляли практический формат, а ЦРК создавал маршрут от обучения к стажировке или трудоустройству. Эти направления входили в мою работу над вертикалью наряду с платформой и привлечением."
                 ]
               }
             ],
@@ -521,7 +522,7 @@ window.portfolioSiteData = {
               }
             ],
             "problem": "Внутри образовательной платформы нужно было улучшать обучение и помогать студентам находить подходящие следующие программы. Отдельная задача: проверить рекомендации студентов как канал привлечения.",
-            "scope": "600+ млн рублей — масштаб выручки вертикали, а не созданный мной прирост. Работа включала продуктовую линейку, платформу, запуск программ, мастерские и карьерный центр.",
+            "scope": "600+ млн рублей — масштаб выручки вертикали, а не созданный мной прирост. Работа включала продуктовую линейку, платформу, запуск программ, мастерские и Центр развития карьеры.",
             "whyItMatters": "Масштаб ответственности — вертикаль с выручкой 600+ млн рублей. Рост LTV был направлением работы; точный измеренный прирост здесь не заявлен.",
             "talkTrack": null,
             "decisions": [],
@@ -1001,19 +1002,25 @@ window.portfolioSiteData = {
           {
             "id": "academcity-career",
             "title": "Центр развития карьеры",
-            "short": "Работал над карьерным центром academcity: переходом от обучения к профессиональной практике. В проекте учитывали подготовку, интересы и доступное время участников.",
-            "problem": "После обучения человеку нужно понять, как начать практиковать и какой формат работы соответствует его подготовке.",
-            "role": "Участвовал в развитии карьерного центра в рамках продуктовой вертикали academcity.",
+            "short": "Развивал Центр развития карьеры (ЦРК) academcity — систему перехода от обучения к практике, стажировке и трудоустройству через отбор студентов и партнёрские организации.",
+            "problem": "Студентам после обучения не хватало понятного маршрута в профессию, а партнёрам — способа получать подготовленных и предварительно отобранных кандидатов на практику.",
+            "role": "Участвовал в развитии ЦРК как отдельного продуктового направления внутри вертикали academcity: логика отбора, путь студента и материалы для взаимодействия с партнёрами.",
             "actions": [
-              "Работал над карьерным направлением как продолжением образовательного продукта.",
-              "Прорабатывал переход от обучения к практике с учётом готовности участников.",
-              "Участвовал в работе над проектом, для которого готовили анкету отбора и материалы взаимодействия с организациями."
+              "Прорабатывал путь от обучения к практике: анкета, оценка готовности, отбор и направление партнёру.",
+              "В анкете учитывали опыт, интересы, доступное время, предпочитаемый формат работы и готовность пройти дополнительную подготовку.",
+              "Для партнёров был собран процесс из шести этапов: условия сотрудничества, тестовое задание, обучение, проверка успеваемости и супервизии, направление лучших студентов, решение о стажировке или трудоустройстве.",
+              "ЦРК работал по трём направлениям психологии: консультативной, клинической и практической."
             ],
-            "result": "В архиве сохранилась анкета участника: опыт, интересы, готовность к практике и время на участие. Она показывает устройство отбора, но не подтверждает трудоустройство или рост дохода выпускников.",
+            "result": "Собран продуктовый маршрут, который соединял обучение, первичный отбор и партнёрские стажировки. В архиве сохранились анкета участника и предложение о сотрудничестве с полной схемой процесса. Число трудоустроенных выпускников в публичном кейсе не заявляю — подтверждённых итоговых данных пока нет.",
             "tags": [
               "Карьерное развитие",
               "Исследования",
               "Образование"
+            ],
+            "metrics": [
+              "6 этапов взаимодействия",
+              "3 направления практики",
+              "Отбор → стажировка"
             ],
             "workflow": [
               [
@@ -1025,18 +1032,27 @@ window.portfolioSiteData = {
                 "Готовность к практике"
               ],
               [
+                "Партнёр",
+                "Тестовое задание"
+              ],
+              [
                 "Практика",
-                "Подходящий формат участия"
+                "Стажировка или трудоустройство"
               ]
             ],
             "domain": "academcity / образование",
             "parentId": "akademcity",
             "scope": "Часть работы внутри продуктовой вертикали academcity.",
-            "metrics": [],
             "visual": "workflow",
             "workflowLabel": "Логика проекта",
             "workflowNote": "Схема по материалам проекта. Не скриншот интерфейса.",
-            "evidenceImages": [],
+            "evidenceImages": [
+              {
+                "src": "./public/assets/portfolio/akademcity/career/career-center-six-step-process.png",
+                "alt": "Шесть этапов взаимодействия Центра развития карьеры academcity с партнёром",
+                "caption": "Материал ЦРК: путь от условий сотрудничества и тестового задания до стажировки или трудоустройства"
+              }
+            ],
             "evidenceLinks": [],
             "decisions": [],
             "talkTrack": null
@@ -1241,6 +1257,7 @@ window.portfolioSiteData = {
         "role": "Моя роль",
         "actions": "Что делал",
         "result": "Результат и вывод",
+        "visualEvidence": "Визуальные доказательства",
         "moreCases": "Другие кейсы",
         "openCase": "Открыть кейс",
         "homeCta": "Вернуться к витрине кейсов",
@@ -1904,7 +1921,7 @@ window.portfolioSiteData = {
               "Reworked how the homepage presented programmes and guided students towards another course.",
               "Launched a referral programme with personal links and student rewards.",
               "Developed practice tools in stages: exercises, then rewards and achievements, followed by personalised programme recommendations.",
-              "Worked on course pages, a career centre and workshops as a new education format."
+              "Worked on course pages, the Career Development Center and workshops as a new education format."
             ],
             "workstreams": [
               {
@@ -1937,10 +1954,11 @@ window.portfolioSiteData = {
                 ]
               },
               {
-                "title": "Programmes, workshops and career development",
+                "title": "Programmes, workshops and the Career Development Center",
                 "paragraphs": [
-                  "I worked on course pages and new long-form programmes, launched workshops as a scalable practice format and contributed to the career centre.",
-                  "These addressed different needs: a wider course offering, more practical learning and support for professional development after studying."
+                  "I worked on course pages and new long-form programmes, launched workshops as a scalable practice format and contributed to the Career Development Center.",
+                  "The Center connected learning with professional practice: partner organisations supplied assignments and placements, while the team assessed student readiness and referred suitable candidates.",
+                  "Programmes widened the offer, workshops added practice, and the Center created a route from learning to an internship or employment."
                 ]
               }
             ],
@@ -1964,7 +1982,7 @@ window.portfolioSiteData = {
               }
             ],
             "problem": "The platform needed to improve learning and help students find relevant programmes to take next. A separate task was to test student referrals as an acquisition channel.",
-            "scope": "RUB 600M+ describes the vertical’s revenue scale, not revenue growth personally generated. The scope covered the course portfolio, platform, launches, workshops and career center.",
+            "scope": "RUB 600M+ describes the vertical’s revenue scale, not revenue growth personally generated. The scope covered the course portfolio, platform, launches, workshops and the Career Development Center.",
             "whyItMatters": "The vertical operated at RUB 600M+ in revenue. Increasing student lifetime value was an objective; no measured LTV uplift is claimed here.",
             "talkTrack": null,
             "decisions": [],
@@ -2442,19 +2460,25 @@ window.portfolioSiteData = {
           {
             "id": "academcity-career",
             "title": "Career Development Center",
-            "short": "Worked on academcity’s career center, connecting education with professional practice and taking participants’ experience, interests and availability into account.",
-            "problem": "After studying, participants needed to understand how to start practicing and which opportunities suited their preparation.",
-            "role": "Contributed to the career center as part of the academcity product vertical.",
+            "short": "Developed academcity’s Career Development Center: a route from education to practice, internships and employment through participant selection and partner organisations.",
+            "problem": "Students lacked a clear route into professional practice, while partners needed a way to receive prepared and pre-screened candidates.",
+            "role": "Contributed to the Center as a product direction within academcity: selection logic, student journey and partner-facing materials.",
             "actions": [
-              "Worked on career development as a continuation of the education product.",
-              "Helped shape the transition from learning to practice around participant readiness.",
-              "Contributed to a project supported by participant selection forms and organization outreach materials."
+              "Designed the journey from learning to practice: questionnaire, readiness assessment, selection and partner referral.",
+              "The questionnaire covered experience, interests, availability, preferred work format and readiness for additional preparation.",
+              "The partner process had six stages: cooperation terms, a test assignment, education, readiness review, candidate referral and the internship or employment decision.",
+              "The Center covered counselling, clinical and practical psychology."
             ],
-            "result": "The archive contains a participant questionnaire covering experience, interests, readiness and availability. It demonstrates the selection process, not employment outcomes or higher earnings.",
+            "result": "A product journey connected education, initial selection and partner internships. The archive contains the participant questionnaire and the full partner process. No employment total is claimed because verified outcome data is not available.",
             "tags": [
               "Career development",
               "Research",
               "Education"
+            ],
+            "metrics": [
+              "6-stage partner process",
+              "3 practice areas",
+              "Selection → internship"
             ],
             "workflow": [
               [
@@ -2466,18 +2490,27 @@ window.portfolioSiteData = {
                 "Readiness to practice"
               ],
               [
+                "Partner",
+                "Test assignment"
+              ],
+              [
                 "Practice",
-                "A suitable format"
+                "Internship or employment"
               ]
             ],
             "domain": "academcity / education",
             "parentId": "akademcity",
             "scope": "Part of the academcity product vertical.",
-            "metrics": [],
             "visual": "workflow",
             "workflowLabel": "Project structure",
             "workflowNote": "Diagram based on project materials, not an interface screenshot.",
-            "evidenceImages": [],
+            "evidenceImages": [
+              {
+                "src": "./public/assets/portfolio/akademcity/career/career-center-six-step-process.png",
+                "alt": "The six-stage academcity Career Development Center partner process",
+                "caption": "Career Center material: from cooperation terms and a test assignment to an internship or employment"
+              }
+            ],
             "evidenceLinks": [],
             "decisions": [],
             "talkTrack": null
@@ -2606,6 +2639,7 @@ window.portfolioSiteData = {
         "role": "My role",
         "actions": "What I did",
         "result": "Result and takeaway",
+        "visualEvidence": "Visual evidence",
         "moreCases": "More cases",
         "openCase": "Open case",
         "homeCta": "Back to case hub",

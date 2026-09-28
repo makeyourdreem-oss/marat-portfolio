@@ -568,15 +568,16 @@ function renderVideoPreview(item, lang) {
 
 function renderEvidenceGallery(caseItem, labels) {
   const images = caseItem.evidenceImages || [];
+  const galleryLabel = labels.visualEvidence || labels.evidence || "";
 
   if (!images.length) {
     return "";
   }
 
   return `
-    <section class="section-shell evidence-gallery reveal" aria-label="${escapeHtml(labels.evidence)}">
+    <section class="section-shell evidence-gallery reveal" aria-label="${escapeHtml(galleryLabel)}">
       <div class="section-title wide">
-        <p class="eyebrow">${escapeHtml(labels.evidence)}</p>
+        <p class="eyebrow">${escapeHtml(galleryLabel)}</p>
         <h2>${escapeHtml(caseItem.domain)}</h2>
       </div>
       <div class="evidence-gallery-grid">
