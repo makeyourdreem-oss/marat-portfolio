@@ -1727,15 +1727,17 @@ h3 {
 }
 
 .visual-akademcity div {
-  display: grid;
+    display: grid;
+    min-width: 0;
   min-height: 142px;
   align-content: end;
 }
 
 .visual-akademcity strong {
-  color: var(--orange);
-  font-size: 36px;
-  line-height: 1;
+    color: var(--orange);
+    font-size: 24px;
+    line-height: 1.15;
+    overflow-wrap: anywhere;
 }
 
 .visual-akademcity span {

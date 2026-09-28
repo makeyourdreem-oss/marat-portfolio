@@ -801,6 +801,7 @@ function renderCasePage(lang = "ru") {
         ${renderCaseBlock(labels.actions, [...(caseItem.decisions || []), ...(caseItem.actions || [])], {
           list: true,
         })}
+        ${(caseItem.workstreams || []).map((stream) => renderCaseBlock(stream.title, stream.paragraphs)).join("")}
         ${renderCaseBlock(labels.result, [caseItem.result, caseItem.whyItMatters])}
       </div>
 

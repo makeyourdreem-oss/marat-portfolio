@@ -463,17 +463,66 @@ window.portfolioSiteData = {
               "Развивал тренажёры поэтапно: сначала упражнения, затем достижения и награды, далее персональные рекомендации программ.",
               "Работал над страницами курсов, карьерным центром и мастерскими как новым образовательным форматом."
             ],
-            "result": "Главная страница была переработана, а реферальная программа запущена как отдельный канал привлечения. Точные показатели из внутренних материалов показываю на интервью после согласования публичности.",
+            "workstreams": [
+              {
+                "title": "Продуктовая стратегия: от одного курса к продолжению обучения",
+                "paragraphs": [
+                  "Работал не только над отдельными курсами, но и над развитием вертикали: исследовал спрос, запускал программы, менял их представление и развивал дополнительные форматы обучения. Определял приоритеты и переводил гипотезы в задачи для команды.",
+                  "Одно из направлений роста — повторные покупки. Для этого связывал обучение на платформе с выбором следующей программы: главная страница, рекомендации, предложения других курсов. Бизнес-цель — рост выручки на студента за всё время обучения (LTV), а не только продажи первого курса."
+                ]
+              },
+              {
+                "title": "Платформа: обучение и выбор следующей программы",
+                "paragraphs": [
+                  "Перерабатывал главную страницу и путь студента к следующему курсу. В макетах рядом с текущим обучением появились новые программы, персональные рекомендации и переход к тренажёрам. Так платформа становилась не только местом просмотра уроков, но и точкой знакомства с другими продуктами школы.",
+                  "На экранах ниже показаны конкретные решения: блок текущей программы, практические задания, анонсы и рекомендации. Это макеты продукта, а не иллюстрация, сгенерированная для портфолио."
+                ]
+              },
+              {
+                "title": "Тренажёры и награды: три этапа развития",
+                "paragraphs": [
+                  "Первый этап — упражнения для закрепления знаний: здесь я вёл проектную часть. Второй — достижения и награды за практику. Третий — персональные рекомендации программ. В следующих итерациях работал над продуктовой логикой механик.",
+                  "В Figma проработаны баллы за правильные ответы, достижения за тренировки и выбор награды. Например, после двух тренировок студент получает достижение «Ученик» и может выбрать награду. Это конкретный сценарий из макета; наличие макета само по себе не означает, что все варианты попали в запуск.",
+                  "В материалах эксперимента были предусмотрены разные группы пользователей и показатели: возвращаемость, число тренировок, продолжительность сессии и вопросы, на которых студенты останавливались. Задача — проверить, помогает ли механика возвращаться к практике, а затем к следующему обучению."
+                ]
+              },
+              {
+                "title": "Реферальная программа: отдельный канал привлечения",
+                "paragraphs": [
+                  "Запускал механику, в которой студент рекомендует обучение по персональной ссылке и получает вознаграждение. В первой версии тестировали варианты мотивации, в том числе скидки и внутреннюю валюту; в презентации описано сравнение вариантов через A/B-тест.",
+                  "Моя задача — связать предложение для действующего студента с приходом нового покупателя: кому показываем приглашение, за какое действие даём бонус и как оцениваем результат. Программа была запущена как новый канал привлечения."
+                ]
+              },
+              {
+                "title": "Продуктовая линейка: программы, мастерские и карьера",
+                "paragraphs": [
+                  "Работал над страницами курсов и запуском новых больших программ. Отдельно запустил мастерские — новый масштабируемый формат практики — и участвовал в развитии центра карьеры.",
+                  "Эти проекты решали разные задачи: программы расширяли предложение, мастерские добавляли практический формат, карьерный центр помогал связать обучение с дальнейшим профессиональным развитием. Они входили в мою работу над вертикалью наряду с платформой и привлечением."
+                ]
+              }
+            ],
+            "result": "Переработана главная страница платформы, запущены реферальная программа, новые образовательные программы и мастерские. Тренажёры развивались от упражнений к достижениям и рекомендациям. Это несколько направлений работы в одной продуктовой вертикали, а не один редизайн экрана.",
             "visual": "akademcity",
             "tags": [
               "Исследования",
               "Приоритизация",
               "Геймификация"
             ],
-            "evidenceImages": [],
+            "evidenceImages": [
+              {
+                "src": "./public/assets/portfolio/akademcity/evidence/akademcity-learning-platform-crop-figma.png",
+                "alt": "Экран платформы для обучения студентов academcity",
+                "caption": "Платформа для обучения: личный кабинет, программы, материалы и тренажеры"
+              },
+              {
+                "src": "./public/assets/portfolio/akademcity/evidence/trainers-platform-design.png",
+                "alt": "Макет главной страницы Pentaschool с переходом в тренажёры и рекомендациями программ",
+                "caption": "Макет из Figma: текущее обучение, вход в тренажёры, новые программы и персональные рекомендации"
+              }
+            ],
             "problem": "Внутри образовательной платформы нужно было улучшать обучение и помогать студентам находить подходящие следующие программы. Отдельная задача: проверить рекомендации студентов как канал привлечения.",
             "scope": "600+ млн рублей — масштаб выручки вертикали, а не созданный мной прирост. Работа включала продуктовую линейку, платформу, запуск программ, мастерские и карьерный центр.",
-            "whyItMatters": "Развитие существующего продукта: обучение, рекомендации и привлечение новых студентов.",
+            "whyItMatters": "Масштаб ответственности — вертикаль с выручкой 600+ млн рублей. Рост LTV был направлением работы; точный измеренный прирост здесь не заявлен.",
             "talkTrack": null,
             "decisions": [],
             "cardOutcome": "Редизайн главной страницы и запуск реферального канала."
@@ -1857,17 +1906,66 @@ window.portfolioSiteData = {
               "Developed practice tools in stages: exercises, then rewards and achievements, followed by personalised programme recommendations.",
               "Worked on course pages, a career centre and workshops as a new education format."
             ],
-            "result": "The homepage was redesigned and the referral programme launched as a separate acquisition channel. I share exact internal metrics in interviews once public use has been approved.",
+            "workstreams": [
+              {
+                "title": "Product strategy: beyond a single course",
+                "paragraphs": [
+                  "I worked across the vertical: market research, programme launches, course positioning and additional learning formats. I set priorities and translated hypotheses into tasks for the team.",
+                  "Repeat purchases were one growth opportunity. Homepage changes, recommendations and offers for other programmes were intended to help students continue learning and increase lifetime revenue per student, rather than focus only on the first purchase."
+                ]
+              },
+              {
+                "title": "Learning platform and course discovery",
+                "paragraphs": [
+                  "I reworked the homepage and the journey towards another course. The designs brought current learning, upcoming programmes, personalised recommendations and a practice entry point together.",
+                  "The screens below are actual product mockups, showing current coursework, practice, programme announcements and recommendations."
+                ]
+              },
+              {
+                "title": "Practice tools and rewards: three stages",
+                "paragraphs": [
+                  "I coordinated the first iteration of practice exercises, then worked on the product logic for achievements and rewards. Personalised course recommendations formed the third stage.",
+                  "The Figma designs include points for correct answers, achievements for practice and reward selection. One scenario grants a learner achievement after two practice sessions. These are design scenarios, not proof that every variant was shipped.",
+                  "The experiment materials specified user groups and measures including return behaviour, practice counts, session duration and questions where learners got stuck. The aim was to test whether the mechanics encouraged continued practice."
+                ]
+              },
+              {
+                "title": "Referrals as an acquisition channel",
+                "paragraphs": [
+                  "I launched a programme using personal referral links and student rewards. The initial version tested incentives including discounts and internal currency; the project presentation describes A/B testing of these options.",
+                  "The work connected the existing student's incentive to a new customer purchase: placement, reward conditions and evaluation of the mechanism."
+                ]
+              },
+              {
+                "title": "Programmes, workshops and career development",
+                "paragraphs": [
+                  "I worked on course pages and new long-form programmes, launched workshops as a scalable practice format and contributed to the career centre.",
+                  "These addressed different needs: a wider course offering, more practical learning and support for professional development after studying."
+                ]
+              }
+            ],
+            "result": "The work included a redesigned homepage, a launched referral programme, new education programmes and workshops. Practice tools evolved from exercises towards achievements and recommendations: several initiatives across a product vertical, rather than a single screen redesign.",
             "visual": "akademcity",
             "tags": [
               "Research",
               "Prioritisation",
               "Gamification"
             ],
-            "evidenceImages": [],
+            "evidenceImages": [
+              {
+                "src": "./public/assets/portfolio/akademcity/evidence/akademcity-learning-platform-crop-figma.png",
+                "alt": "academcity student learning platform screen",
+                "caption": "Learning platform: student account, programs, materials and simulators"
+              },
+              {
+                "src": "./public/assets/portfolio/akademcity/evidence/trainers-platform-design.png",
+                "alt": "Pentaschool homepage design with practice entry and programme recommendations",
+                "caption": "Product mockup: current learning, practice entry, new programmes and personalised recommendations"
+              }
+            ],
             "problem": "The platform needed to improve learning and help students find relevant programmes to take next. A separate task was to test student referrals as an acquisition channel.",
             "scope": "RUB 600M+ describes the vertical’s revenue scale, not revenue growth personally generated. The scope covered the course portfolio, platform, launches, workshops and career center.",
-            "whyItMatters": "Improving an established product: learning, recommendations and student acquisition.",
+            "whyItMatters": "The vertical operated at RUB 600M+ in revenue. Increasing student lifetime value was an objective; no measured LTV uplift is claimed here.",
             "talkTrack": null,
             "decisions": [],
             "cardOutcome": "Homepage redesign and launch of a referral acquisition channel."
